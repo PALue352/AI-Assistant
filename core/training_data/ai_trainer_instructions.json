@@ -1,0 +1,23 @@
+{
+    "training_instructions": {
+        "purpose": "Fine-tune and prune sub-AI models for optimal performance and ethical alignment without removing any sub-AIs.",
+        "steps": {
+            "load_data": "Load training data from 'ethical_training_data.json' or sub-AI-specific JSON files (e.g., 'medical_kb.json').",
+            "fine_tune": "If neural_capable, use transformers.Trainer with TrainingArguments (epochs=1, batch_size=4) to fine-tune the model on category-specific data.",
+            "extract_data": "Post-training, generate sample responses, extract structured data (e.g., symptoms, facts), and update corresponding JSON files.",
+            "prune": "Reduce neural model weights below confidence threshold (e.g., <0.8) or trim low-impact rules from static knowledge bases, preserving all sub-AI modules.",
+            "validate": "Use AIWatcher to monitor outputs for accuracy and ethical compliance."
+        },
+        "categories": {
+            "medical": "Train on symptom-disease data, update 'medical_kb.json'.",
+            "knowledge": "Train on factual queries, update 'knowledge_base.json'.",
+            "cognitive": "Train on reasoning tasks, update 'cognitive_kb.json'.",
+            "general": "Train on mixed ethical data, update 'general_training_data.json'."
+        }
+    },
+    "pruning_instructions": {
+        "criteria": "Reduce neural weights <0.8 confidence or low-impact static rules; retain all sub-AI modules for functionality.",
+        "frequency": "After every 5 training runs or significant feedback accumulation."
+    },
+    "update_instructions": "Modify 'categories' to add new sub-AI training domains. Adjust 'steps' for new pruning techniques or data sources."
+}

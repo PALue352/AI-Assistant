@@ -1,0 +1,105 @@
+{
+    "sub_ais": {
+        "common_sense_model": {
+            "description": "Checks logical consistency and common sense.",
+            "usage": "Invoke with 'common sense' in request to validate responses.",
+            "triggers": ["common sense"]
+        },
+        "truth_detection_model": {
+            "description": "Detects misinformation and bias.",
+            "usage": "Invoke with 'truth' or 'fact' to assess response truthfulness.",
+            "triggers": ["truth", "fact"]
+        },
+        "math_model": {
+            "description": "Solves symbolic math problems.",
+            "usage": "Invoke with 'math' followed by an equation (e.g., 'math x + 2 = 5').",
+            "triggers": ["math"]
+        },
+        "pattern_model": {
+            "description": "Detects patterns in data.",
+            "usage": "Invoke with 'pattern' followed by data list (e.g., 'pattern [1, 2, 3]').",
+            "triggers": ["pattern"]
+        },
+        "coder_ai": {
+            "description": "Generates and explains code.",
+            "usage": "Invoke with 'code' followed by task (e.g., 'code print hello').",
+            "triggers": ["code"]
+        },
+        "knowledge_base_ai": {
+            "description": "Provides factual responses from a knowledge base.",
+            "usage": "Invoke with 'knowledge' followed by query (e.g., 'knowledge earth radius').",
+            "triggers": ["knowledge"]
+        },
+        "image_processing_ai": {
+            "description": "Processes images for captions and text.",
+            "usage": "Invoke with 'image' followed by file path (e.g., 'image path/to/image.jpg').",
+            "triggers": ["image"]
+        },
+        "ocr_ai": {
+            "description": "Extracts text from images.",
+            "usage": "Invoke with 'ocr' followed by image path (e.g., 'ocr path/to/image.jpg').",
+            "triggers": ["ocr"]
+        },
+        "latex_ai": {
+            "description": "Generates LaTeX equations.",
+            "usage": "Invoke with 'latex' followed by equation (e.g., 'latex x^2 + 2').",
+            "triggers": ["latex"]
+        },
+        "ai_development_monitor": {
+            "description": "Monitors AI development updates.",
+            "usage": "Invoke with 'monitor ai' to fetch updates.",
+            "triggers": ["monitor ai"]
+        },
+        "business_ai": {
+            "description": "Handles business operations and patents.",
+            "usage": "Invoke with 'business' or 'patent' followed by description (e.g., 'patent new device').",
+            "triggers": ["business", "patent"]
+        },
+        "physics_ai": {
+            "description": "Solves physics problems.",
+            "usage": "Invoke with 'physics' followed by type (e.g., 'physics kinematics {\"u\": 0, \"a\": 9.81, \"t\": 2}').",
+            "triggers": ["physics"]
+        },
+        "medical_ai": {
+            "description": "Analyzes medical symptoms.",
+            "usage": "Invoke with 'medical' followed by symptoms (e.g., 'medical fever, cough').",
+            "triggers": ["medical"]
+        },
+        "science_ai": {
+            "description": "Solves scientific equations and analyzes data.",
+            "usage": "Invoke with 'science equation x^2 = 4' or 'science data [1, 2, 3]'.",
+            "triggers": ["science"]
+        },
+        "cognitive_science_ai": {
+            "description": "Handles reasoning and consciousness queries.",
+            "usage": "Invoke with 'cognitive' followed by problem (e.g., 'cognitive solve x + 2 = 5').",
+            "triggers": ["cognitive"]
+        },
+        "how_to_think_ai": {
+            "description": "Teaches problem-solving strategies.",
+            "usage": "Invoke with 'think' followed by problem (e.g., 'think solve 2x + 3 = 7').",
+            "triggers": ["think"]
+        },
+        "financial_advisor_ai": {
+            "description": "Provides financial advice.",
+            "usage": "Invoke with 'finance' or 'financial' followed by query (e.g., 'finance budget $2000').",
+            "triggers": ["finance", "financial"]
+        },
+        "public_relations_ai": {
+            "description": "Advises on PR campaigns and media.",
+            "usage": "Invoke with 'pr' or 'public relations' followed by query (e.g., 'pr improve image').",
+            "triggers": ["pr", "public relations"]
+        },
+        "user_protection_ai": {
+            "description": "Monitors threats and advises safety actions.",
+            "usage": "Invoke with 'protect' or 'safety' followed by situation (e.g., 'protect suspicious email').",
+            "triggers": ["protect", "safety"]
+        },
+        "ai_trainer": {
+            "description": "Trains and fine-tunes sub-AI models.",
+            "usage": "Invoke with 'train' followed by category (e.g., 'train cognitive').",
+            "triggers": ["train"]
+        }
+    },
+    "update_instructions": "Add new sub-AIs under 'sub_ais' with 'description', 'usage', and 'triggers'. Update existing entries as functionality changes."
+}

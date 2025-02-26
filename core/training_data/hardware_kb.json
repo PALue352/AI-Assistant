@@ -1,0 +1,10 @@
+{
+    "optimization": {
+        "cpu_high": "Reduce CPU-intensive tasks; prioritize lightweight models.",
+        "memory_low": "Increase virtual memory or upgrade RAM; close unused applications."
+    },
+    "upgrades": {
+        "gpu": "Consider a GPU with at least 12GB VRAM for better neural performance.",
+        "ram": "Upgrade to 16GB+ RAM for smoother multitasking."
+    }
+}

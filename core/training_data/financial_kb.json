@@ -1,0 +1,15 @@
+{
+    "budgeting": {
+      "rule": "50/30/20 rule: 50% needs, 30% wants, 20% savings/debt repayment.",
+      "steps": [
+        "Calculate monthly income.",
+        "Allocate 50% to needs (housing, food).",
+        "30% to wants (entertainment).",
+        "20% to savings/debt."
+      ]
+    },
+    "investing": {
+      "basic_advice": "Diversify investments; consider low-cost index funds.",
+      "risk": "Higher risk may yield higher returns but increases loss potential."
+    }
+  }

@@ -1,0 +1,18 @@
+{
+  "reasoning": {
+    "deduction": "Deriving specific conclusions from general premises.",
+    "induction": "Generalizing from specific observations."
+  },
+  "consciousness": {
+    "hard_problem": "Explaining how subjective experience arises from physical processes.",
+    "theories": ["Integrated Information Theory", "Global Workspace Theory"]
+  },
+  "neural_networks": {
+    "backpropagation": "Adjusting weights based on error gradients.",
+    "layers": ["Input", "Hidden", "Output"]
+  },
+  "pdp": {
+    "principle": "Information processing via interconnected nodes in parallel.",
+    "example": "Word recognition via distributed activation patterns."
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "coding_rules": {
+        "pep8": "Follow PEP 8 style guidelines",
+        "modularity": "Write modular, reusable code",
+        "testing": "Include unit tests with pytest"
+    },
+    "thinking_cache": {
+        "strategies": {
+            "logical": "Use deductive reasoning: Start with general principles, derive specific conclusions.",
+            "creative": "Brainstorm ideas freely, connect unrelated concepts to form novel solutions."
+        }
+    },
+    "cognitive_cache": {
+        "steps": {
+            "Solve x + 2 = 5": {
+                "problem": "Solve x + 2 = 5",
+                "steps": [
+                    "Subtract 2 from both sides: x + 2 - 2 = 5 - 2",
+                    "Simplify: x = 3"
+                ],
+                "solution": "x = 3"
+            }
+        }
+    }
+}

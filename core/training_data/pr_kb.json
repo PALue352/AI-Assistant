@@ -1,0 +1,15 @@
+{
+    "campaign": {
+      "strategy": "Craft a positive narrative, target key audiences, use multiple channels.",
+      "steps": [
+        "Define campaign goals (e.g., improve image, promote event).",
+        "Identify target audience (e.g., public, media, stakeholders).",
+        "Develop key messages.",
+        "Choose channels (press releases, social media, events).",
+        "Monitor feedback and adjust."
+      ]
+    },
+    "media": {
+      "advice": "Maintain consistency, respond promptly, build relationships with journalists."
+    }
+  }
