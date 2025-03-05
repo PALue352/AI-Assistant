@@ -1,9 +1,0 @@
-{
-    "sub_ai_usage": {
-        "advice": "Review 'sub_ai_usage.json' for triggers and usage patterns.",
-        "optimization": "Prioritize frequently used sub-AIs like 'coder_ai' and 'math_model'."
-    },
-    "performance": {
-        "advice": "Monitor response time and memory usage; prune underperforming sub-AIs."
-    }
-}

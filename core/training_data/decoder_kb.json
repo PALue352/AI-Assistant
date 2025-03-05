@@ -1,4 +1,0 @@
-{
-    "image_formats": ["JPEG", "PNG", "BMP"],
-    "metadata": "Extract basic metadata like size, format."
-}

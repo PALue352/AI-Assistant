@@ -1,9 +1,0 @@
-{
-    "image_scenes": {
-        "person": "A person is present in the image.",
-        "object": "An object is visible."
-    },
-    "video_actions": {
-        "movement": "Something is moving in the video."
-    }
-}

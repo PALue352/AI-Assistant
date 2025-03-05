@@ -1,9 +1,0 @@
-{
-  "facts": {
-    "earth_radius": 6371,
-    "pi": 3.14159
-  },
-  "topics": {
-    "astronomy": ["Earth orbits the Sun", "Moon affects tides"]
-  }
-}

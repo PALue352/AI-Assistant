@@ -1,7 +1,0 @@
-{
-  "symptoms": {
-    "fever": {"causes": ["infection", "inflammation"], "advice": "Rest, hydrate, consult a doctor if >38°C for 48h."},
-    "cough": {"causes": ["cold", "allergies"], "advice": "Steam inhalation, avoid irritants."},
-    "headache": {"causes": ["stress", "dehydration"], "advice": "Hydrate, rest, consider pain relief."}
-  }
-}

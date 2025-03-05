@@ -1,9 +1,0 @@
-{
-    "equations": {
-        "linear": "s = ut + 0.5at^2 (displacement with constant acceleration)",
-        "velocity": "v = u + at (final velocity)"
-    },
-    "coding": {
-        "basic_motion": "Use time.sleep() for delays and loops for continuous motion."
-    }
-}
